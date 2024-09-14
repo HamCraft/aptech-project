@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Metric Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Metric Conversion Calculator</h1>
+</header>
+
+<div class="container">
+    <h2 class="section-title">Metric Conversion Chart</h2>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Category</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Multiplying Factor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Length</td>
+                <td>Inches</td>
+                <td>Millimeters</td>
+                <td>25.4</td>
+            </tr>
+            <tr>
+                <td>Length</td>
+                <td>Feet</td>
+                <td>Meters</td>
+                <td>0.3048</td>
+            </tr>
+            <tr>
+                <td>Area</td>
+                <td>Square inches</td>
+                <td>Square millimeters</td>
+                <td>645.16</td>
+            </tr>
+            <tr>
+                <td>Volume</td>
+                <td>Fluid ounces</td>
+                <td>Milliliters</td>
+                <td>29.5735</td>
+            </tr>
+            <tr>
+                <td>Mass</td>
+                <td>Ounces</td>
+                <td>Grams</td>
+                <td>28.3495</td>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>Fahrenheit</td>
+                <td>Celsius</td>
+                <td>(F - 32) * 5/9</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="section-title">History of Measurement Units</h2>
+    <p>Measurement units have a long history, with different civilizations contributing to the development of units for length, mass, and time. For instance, the meter was first introduced in France in 1793 as one ten-millionth of the distance from the equator to the North Pole.</p>
+
+    <h2 class="section-title">Articles</h2>
+    <ul>
+        <li><a href="#">The SI System</a>: An article describing what the SI system of units is.</li>
+        <li><a href="#">Metric System</a>: An article describing the differences between various metric systems.</li>
+        <li><a href="#">The Meter</a>: An article defining the meter as used in the metric system, both past and present.</li>
+        <li><a href="#">Traditional U.S. Units</a>: An article describing the traditional units of measurement used in the United States.</li>
+    </ul>
+
+    <h2 class="section-title">Frequently Asked Questions (FAQs)</h2>
+    <div class="accordion" id="faqAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How do I enter numbers in Scientific Notation?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Scientific notation uses the format a x 10^b. For example, 3.2 x 10^4 is written as 3.2e4.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What is a knot? What is a nautical mile?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                <div class="card-body">
+                    A knot is a speed unit equal to one nautical mile per hour. A nautical mile is 1.852 kilometers or about 1.1508 miles.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Metric Conversion Calculator</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
